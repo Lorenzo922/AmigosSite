@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#feed {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #aaa;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 8px;
+}
