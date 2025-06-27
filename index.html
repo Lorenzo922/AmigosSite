@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Rede de Amizades</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+</head>
+<body>
+  <h1>🌟 Rede de Amizades</h1>
+
+  <div id="login">
+    <input type="text" id="nomeUsuario" placeholder="Digite seu nome">
+    <button onclick="entrar()">Entrar</button>
+  </div>
+
+  <div id="painel" style="display:none">
+    <p id="bemvindo"></p>
+    <p id="amizade">Amizade: 0</p>
+    <input type="file" id="imagemInput">
+    <input type="text" id="legendaInput" placeholder="Legenda">
+    <button onclick="postar()">Postar</button>
+
+    <h2>Feed de Postagens</h2>
+    <div id="feed"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
